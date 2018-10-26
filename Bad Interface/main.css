@@ -1,0 +1,59 @@
+/* source used: https://codepen.io/cathydutton/pen/GBcvo */
+
+body {
+    background-color: #ff0000;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    height:100%;
+	background-image: url("timer.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+		/* image sources: http://timer.onlineclock.net/ and https://www.tickcounter.com/timer*/
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 10px auto;
+    text-align: center;
+	
+} 
+
+h1, h2, h3 {
+  font-family: "Comic Sans MS", cursive, sans-serif	;
+  font-weight: 100;
+	color: #228B22;
+}
+
+p{
+    font-size:20em;
+    color: #228B22;
+}
+
+
+
+button{
+	border: solid 1px $white;
+	text-decoration:none;
+	cursor:pointer;
+	outline: none;
+	width:25px;
+	height:25px;
+
+}
+
+#button-start{
+	background-color:#00FF00;	 
+}
+
+#button-stop{
+	background-color:#8b0000;
+}
+
+#button-reset{
+	background-color: #FFFFFF;
+	width:100px;
+}
+
+
+
+
+
